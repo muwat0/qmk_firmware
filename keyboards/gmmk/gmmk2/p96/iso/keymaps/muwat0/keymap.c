@@ -8,15 +8,15 @@
 #define _WASD 3
 
 // HELD Bindings (Mod-Tap)
-#define HOME_A LSFT_T(KC_A)  // A acts as Left Shift
+#define HOME_A LALT_T(KC_A)  // A acts as Left Alt
 #define HOME_S LCTL_T(KC_S)  // S acts as Left Ctrl
-#define HOME_D LGUI_T(KC_D)  // D acts as Left GUI
-#define HOME_F LALT_T(KC_F)  // F acts as Left Alt
+#define HOME_D LSFT_T(KC_D)  // D acts as Left Shift
+#define HOME_F LGUI_T(KC_F)  // F acts as Left Super
 
-#define HOME_J RALT_T(KC_J)  // J acts as Right Alt
-#define HOME_K RGUI_T(KC_K)  // K acts as Right GUI
+#define HOME_J RGUI_T(KC_J)  // J acts as Right Super
+#define HOME_K RSFT_T(KC_K)  // K acts as Right Shift
 #define HOME_L RCTL_T(KC_L)  // L acts as Right Ctrl
-#define HOME_SCLN RSFT_T(KC_SCLN)  // ; acts as Right Shift
+#define HOME_SCLN RALT_T(KC_SCLN)  // ; acts as Right Alt
 
 // Re-Positioning
 #define RE_CAPS KC_GESC // Caps Lock key acts as ESCAPE key

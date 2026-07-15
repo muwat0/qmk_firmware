@@ -23,7 +23,7 @@
 
 // Custom Alt keys
 #define ALT_LFT LT(_NU, KC_BSPC)
-#define ALT_RGT KC_ENT
+#define ALT_RGT RALT_T(KC_ENT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* Keymap _BL: Base Layer (Default Layer) */
